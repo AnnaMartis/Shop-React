@@ -1,0 +1,11 @@
+{
+    "goods": [
+      { "id": 1, "title": "json-server", "descr": "typicode", "price" : 1500, "imgUrl" :  "https://via.placeholder.com/400/92c952" },
+      { "id": 2, "title": "angular", "descr": "typicode", "price" : 1600, "imgUrl" :  "https://via.placeholder.com/400/771796" },
+      { "id": 3, "title": "vue", "descr": "typicode", "price" : 1700, "imgUrl" :  "https://via.placeholder.com/400/24f355" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }

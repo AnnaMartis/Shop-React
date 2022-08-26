@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.GoodList {
+    display : flex;
+    justify-content: space-between;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.BasketList {
+    position: absolute;
+    top: 15%;
+    left: calc(50% - 200px);
+    width: 400px;
+    background-color: grey;
+}
+
+
+.BasketList .Close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    font-size: 2rem;
 }
